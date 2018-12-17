@@ -1,5 +1,5 @@
-  all: test.cpp 
+all: test.cpp 
     gcc -g -Wall -o test test.cpp
 
-  clean: 
+clean: 
     $(RM) test
